@@ -86,35 +86,73 @@ header {
   display: flex;
   flex-direction: row;
   margin: 170px 0;
-  background-image: url(image2.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position-x: 600px;
-  background-position-y: 55px;
 }
 
 .container-head {
   display: flex;
+}
+
+.rightSide,
+.leftSide {
+  height: fit-content;
+}
+
+.rightSide {
+  position: relative;
+  width: 50%;
+}
+
+.leftSide {
+  display: flex;
   flex-direction: column;
 }
 
+.img2 {
+  position: absolute;
+  width: 900px;
+  height: 600px;
+  left: -350px;
+  top: 30px;
+}
+
 .h1 {
-  width: 70%;
   font-weight: 700;
   font-size: 80px;
   line-height: 88px;
   margin-bottom: 60px;
   font-family: "Lato";
   color: #212353;
+  z-index: 2;
+}
+
+.h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  margin-bottom: 40px;
+  font-family: "Lato";
+  color: #212353;
+}
+
+.h3 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  z-index: 3;
 }
 
 .h4 {
-  width: 40%;
+  width: 50%;
   font-weight: 500;
   font-size: 18px;
   line-height: 29px;
   margin-bottom: 60px;
   color: #4b5d68;
+  z-index: 3;
+}
+
+.h4pink {
+  width: 100%;
 }
 
 .btn-learn {
@@ -131,18 +169,72 @@ header {
   flex-direction: row;
   width: 1117px;
   height: 560px;
+  margin: 200px 0;
   left: 240px;
   top: 903.18px;
   background-color: rgba(240, 99, 184, 0.15);
   border-radius: 50px;
 }
 
-.rightSide,
-.leftSide {
-  width: 50%;
-  height: fit-content;
+.pinkLeft {
+  display: flex;
+  margin: auto;
 }
 
-.rightSide {
-  justify-content: right;
+.img3 {
+  width: 400px;
+  height: 300px;
+}
+
+.pinkRight {
+  display: flex;
+  flex-direction: column;
+  margin: auto 0;
+  padding-right: 90px;
+}
+
+.features {
+  margin: 100px 0;
+}
+
+.headings_center {
+  margin: 0 auto;
+}
+
+.bg-box-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.bg-box-container:nth-child(1),
+.bg-box-container:nth-child(2),
+.bg-box-container:nth-child(3),
+.bg-box-container:nth-child(4) {
+  width: 442px;
+  height: 358px;
+  opacity: 0.1;
+  border-radius: 50px;
+}
+
+.bg-box-container:nth-child(1) {
+  background-color: #68c9ba;
+}
+
+.bg-box-container:nth-child(2) {
+  background-color: #9c69e2;
+}
+
+.bg-box-container:nth-child(3) {
+  background-color: #f063b8;
+}
+
+.bg-box-container:nth-child(4) {
+  background-color: #2d9cdb;
+}
+
+.btn_transparent {
+  background-color: transparent;
+  border: none;
+  color: #212353;
 }
