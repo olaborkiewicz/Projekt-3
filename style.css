@@ -164,7 +164,41 @@ header {
 }
 
 .h4features {
-  width: 65%;
+  width: 55%;
+}
+
+.h5 {
+  font-family: "Lato";
+  font-size: 20px;
+  font-weight: 900;
+  color: #212353;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.h6 {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 25px;
+  color: #212353;
+  letter-spacing: 0.01em;
+  margin-bottom: 25px;
+}
+
+.h7 {
+  font-family: "Lato";
+  font-weight: 300;
+  font-size: 16px;
+  color: #212353;
+  letter-spacing: 0.01em;
+}
+
+.h8 {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 12px;
+  color: #212353;
 }
 
 .btn-learn {
@@ -455,20 +489,71 @@ header {
 .data-container {
   display: flex;
   flex-direction: row;
+  margin-bottom: 100px;
+  justify-content: space-between;
+}
+
+.brand-box {
+  display: flex;
+  flex-direction: row;
   margin-bottom: 50px;
 }
 
+.address,
+.about-items,
+.help-items,
+.social-media {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+
 .address {
+  margin-right: 50px;
+}
+
+.about-items {
+  padding-left: 130px;
+  margin-right: 25px;
+}
+
+.help-items {
+  padding-right: 130px;
+}
+
+.data_p {
+  margin-bottom: 65px;
+}
+
+ul {
+  padding: 0;
+}
+li {
+  margin-bottom: 25px;
+}
+
+.icons {
   display: flex;
   flex-direction: row;
 }
 
-.h5 {
-  font-family: "Lato";
-  font-size: 20px;
-  font-weight: 900;
-  line-height: 32px;
+i {
+  font-size: 50px;
   color: #212353;
-  margin-left: 20px;
-  margin-bottom: 0;
+  opacity: 0.1;
+  margin-right: 30px;
+}
+
+.footer-items {
+  display: flex;
+  flex-direction: row;
+  margin: auto 0;
+  margin-bottom: 100px;
+  justify-content: space-between;
+}
+
+.ii {
+  font-size: 60px;
+  background-color: #9c69e2;
+  opacity: 0.2;
 }
