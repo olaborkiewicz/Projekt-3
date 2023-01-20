@@ -227,6 +227,7 @@ header {
   flex-direction: row;
   width: 1117px;
   height: 560px;
+  margin: 0 auto;
   background-color: rgba(240, 99, 184, 0.15);
   border-radius: 50px;
 }
@@ -263,7 +264,7 @@ header {
 
 .bg-box-container {
   display: flex;
-  width: 100%;
+  width: 96%;
   height: fit-content;
   margin-bottom: 50px;
   flex-wrap: wrap;
@@ -310,6 +311,12 @@ header {
   padding-left: 30px;
 }
 
+.bottom-elements {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
 .lm {
   font-family: "Lato";
   font-weight: 800;
@@ -319,10 +326,11 @@ header {
   text-decoration: none;
 }
 
-.btn_transparent {
-  background-color: transparent;
-  border: none;
-  color: #212353;
+.testimonials {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 150px;
 }
 
 .purple_wrapper {
@@ -330,8 +338,8 @@ header {
   flex-direction: column;
   width: 1118px;
   height: 709px;
-  margin: 100px auto;
-  padding: 111px 0 128px 94px;
+  margin: 0 auto;
+  padding: 111px 0 128px 60px;
   border-radius: 50px;
   background-color: #9c69e2;
 }
@@ -396,9 +404,9 @@ header {
   flex-direction: row;
   width: 645px;
   height: auto;
-  margin-right: 30px;
+  margin-right: 23px;
   background: #ffffff;
-  box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
+  box-shadow: 0px 20px 0px rgb(100 52 166 / 30%);
   border-radius: 20px;
 }
 
@@ -411,6 +419,7 @@ header {
   border: 1px solid #9c69e2;
   border-radius: 20px;
   margin-right: 14px;
+  box-shadow: 0px 20px 0px rgb(101 82 126 / 10%);
 }
 
 .circle2 {
@@ -425,10 +434,17 @@ header {
 }
 
 .description2 {
+  position: relative;
   line-height: 180%;
-  background: linear-gradient(to bottom right, #000000, #fff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+}
+
+.description2::before {
+  position: absolute;
+  display: block;
+  content: " ";
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to left, #fff, transparent);
 }
 
 .circle3 {
@@ -444,7 +460,7 @@ header {
 
 .dots-vectors {
   display: flex;
-  margin: 500px 0;
+  margin: 528px 0;
   align-items: center;
   justify-content: space-between;
 }
@@ -473,23 +489,8 @@ header {
 }
 
 .vectors {
+  display: inline;
   padding-right: 75px;
-}
-
-.vector-b,
-.vector-c {
-  color: #ffffff;
-}
-
-.vector-b {
-  font-size: 40px;
-  margin-right: 15px;
-}
-
-.vector-c {
-  display: flex;
-  align-items: center;
-  font-size: 20px;
 }
 
 .strap {
@@ -505,7 +506,7 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 100px;
+  margin-bottom: 130px;
 }
 
 .wide {
@@ -520,7 +521,12 @@ header {
 
 .pink {
   margin-right: 30px;
+  margin-top: 0;
   background-color: #f063b8;
+}
+
+.btn-span {
+  margin-right: 15px;
 }
 
 .data-container {
