@@ -596,11 +596,13 @@ i {
 }
 
 .elipse {
-  position: relative;
+  display: flex;
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  background-color: #9c69e2;
+  justify-content: center;
+  align-items: center;
+  background-color: #b9b0c9;
   opacity: 0.2;
   margin-right: 50px;
 }
