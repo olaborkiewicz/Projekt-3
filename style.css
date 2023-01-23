@@ -12,6 +12,7 @@ body {
 .leftSide,
 .pinkRight,
 .bg-right,
+.headings_center,
 .purple_wrapper,
 .right,
 .address,
@@ -168,10 +169,21 @@ i {
   display: flex;
   width: 210px;
   height: 60px;
-  background-color: #fff;
-  border-radius: 50px;
   justify-content: center;
   box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+}
+
+.btn,
+.window1,
+.window2,
+.small-dot {
+  background-color: #fff;
+}
+
+.btn,
+.pink_wrapper,
+.purple_wrapper {
+  border-radius: 50px;
 }
 
 .rd {
@@ -231,14 +243,12 @@ header {
   font-size: 80px;
   line-height: 88px;
   margin-bottom: 70px;
-
   z-index: 2;
 }
 
 .h2 {
   font-size: 40px;
   line-height: 52px;
-  margin-bottom: 50px;
 }
 
 .h2white {
@@ -248,7 +258,6 @@ header {
 }
 
 .h3 {
-  font-weight: 400;
   font-size: 24px;
   line-height: 32px;
   z-index: 3;
@@ -270,11 +279,14 @@ header {
   width: 55%;
 }
 
+.h4-wide {
+  width: 100%;
+}
+
 .h5 {
   font-size: 20px;
   font-weight: 900;
-  margin-left: 20px;
-  margin-bottom: 10px;
+  margin: 0 0 10px 20px;
 }
 
 .h6 {
@@ -290,8 +302,13 @@ header {
 }
 
 .h8 {
-  font-weight: 400;
   font-size: 12px;
+}
+
+.h3,
+.h8,
+.description {
+  font-weight: 400;
 }
 
 .btn-learn {
@@ -324,7 +341,6 @@ header,
   width: 1117px;
   height: 560px;
   background-color: rgba(240, 99, 184, 0.15);
-  border-radius: 50px;
 }
 
 .pinkLeft {
@@ -347,25 +363,28 @@ header,
 
 .headings_center {
   margin: 100px auto;
-  display: flex;
-  flex-direction: column;
   text-align: center;
 }
 
 .bg-box-container {
   display: flex;
   width: 96%;
-  margin-bottom: 50px;
   flex-wrap: wrap;
 }
 
 .bg-box {
   display: flex;
   height: 360px;
-  margin-bottom: 50px;
-  background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
+}
+
+.bg-box-container,
+.bg-box,
+.h2,
+.description,
+.brand-box {
+  margin-bottom: 50px;
 }
 
 .bg-box:nth-child(1) {
@@ -414,7 +433,6 @@ header,
   width: 1118px;
   height: 709px;
   padding: 111px 0 128px 60px;
-  border-radius: 50px;
 }
 
 .windows {
@@ -434,6 +452,11 @@ header,
   margin: 60px 40px 180px 70px;
   background-image: url(man.jpg);
   background-size: contain;
+}
+
+.circle1,
+.circle2,
+.circle3 {
   background-position: center;
 }
 
@@ -453,30 +476,28 @@ header,
 
 .description {
   width: 90%;
-  font-weight: 400;
   font-size: 18px;
   line-height: 180%;
   color: #4b5d68;
-  margin-bottom: 50px;
 }
 
 .window1 {
   width: 645px;
-  height: auto;
   margin-right: 23px;
-  background: #ffffff;
   box-shadow: 0px 20px 0px rgb(100 52 166 / 30%);
-  border-radius: 20px;
 }
 
 .window2 {
   width: 400px;
-  height: auto;
-  background: #fff;
   border: 1px solid #9c69e2;
-  border-radius: 20px;
   margin-right: 14px;
   box-shadow: 0px 20px 0px rgb(101 82 126 / 10%);
+}
+
+.window1,
+.window2 {
+  height: auto;
+  border-radius: 20px;
 }
 
 .circle2 {
@@ -485,8 +506,6 @@ header,
   margin: 60px 30px 180px 30px;
   background-image: url(woman.jpg);
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .description2 {
@@ -508,13 +527,23 @@ header,
   margin: 60px 30px 180px 30px;
   background-image: url(man2.jpg);
   background-size: cover;
-  background-position: center;
+}
+
+.bg-box,
+.circle2,
+.circle3 {
   background-repeat: no-repeat;
 }
 
 .dots-vectors {
   display: flex;
   margin: 528px 0;
+}
+
+.dots-vectors,
+.contact_head,
+.data-container,
+.footer-items {
   justify-content: space-between;
 }
 
@@ -528,7 +557,6 @@ header,
   width: 5px;
   height: 5px;
   margin-right: 10px;
-  background-color: #fff;
 }
 
 .vectors {
@@ -543,7 +571,6 @@ header,
 }
 
 .contact_head {
-  justify-content: space-between;
   margin-bottom: 130px;
 }
 
@@ -552,8 +579,7 @@ header,
 }
 
 .pink {
-  margin-right: 30px;
-  margin-top: 0;
+  margin: 0 30px 0 0;
 }
 
 .btn-span {
@@ -562,11 +588,6 @@ header,
 
 .data-container {
   margin-bottom: 100px;
-  justify-content: space-between;
-}
-
-.brand-box {
-  margin-bottom: 50px;
 }
 
 .address,
@@ -596,6 +617,7 @@ header,
 ul {
   padding: 0;
 }
+
 li {
   margin-bottom: 25px;
 }
@@ -608,7 +630,6 @@ i {
 
 .footer-items {
   margin-bottom: 100px;
-  justify-content: space-between;
 }
 
 .elipse {
