@@ -90,7 +90,6 @@ body {
 }
 
 .circle,
-.btn-learn,
 .purple_wrapper,
 .strap {
   background-color: #9c69e2;
@@ -317,6 +316,7 @@ header {
   color: #ffffff;
   font-size: 18px;
   box-shadow: none;
+  background-color: #9c69e2;
 }
 
 .pink_wrapper,
