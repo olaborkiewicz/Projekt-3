@@ -4,16 +4,16 @@ body {
   font-family: "Quicksand", sans-serif;
 }
 
-.main_container {
+.main-container {
   width: 80%;
 }
 
-.main_container,
-.leftSide,
-.pinkRight,
+.main-container,
+.left-side,
+.pink-right,
 .bg-right,
-.headings_center,
-.purple_wrapper,
+.headings-center,
+.purple-wrapper,
 .right,
 .address,
 .about-items,
@@ -23,15 +23,15 @@ body {
   flex-direction: column;
 }
 
-.main_container,
-.pink_wrapper,
-.purple_wrapper {
+.main-container,
+.pink-wrapper,
+.purple-wrapper {
   margin: 0 auto;
 }
 
-.main_container,
-.rightSide,
-.leftSide,
+.main-container,
+.right-side,
+.left-side,
 .right,
 .left,
 .bg-box-container {
@@ -44,7 +44,7 @@ body {
 }
 
 .navbar,
-.headings_center,
+.headings-center,
 .testimonials,
 .description2::before,
 .strap,
@@ -55,12 +55,12 @@ body {
 .navbar,
 .nav-item,
 .btn,
-.headings_center,
+.headings-center,
 .bg-box,
 .dots-vectors,
 .dots,
 .vectors,
-.contact_head,
+.contact-head,
 .elipse {
   align-items: center;
 }
@@ -90,7 +90,7 @@ body {
 }
 
 .circle,
-.purple_wrapper,
+.purple-wrapper,
 .strap {
   background-color: #9c69e2;
 }
@@ -118,15 +118,15 @@ body {
 .navbar-nav,
 .nav-item,
 .btn,
-.h4,
-.h6,
-.h7,
+h4,
+h6,
+h7,
 .lm {
   font-size: 16px;
 }
 
 .nav-item,
-.h4,
+h4,
 .position {
   font-weight: 500;
 }
@@ -138,11 +138,11 @@ body {
 
 .nav-item,
 .rd,
-.h1,
-.h2,
+h1,
+h2,
 .h3-features,
-.h5,
-.h6,
+h5,
+h6,
 .h7,
 .h8,
 .lm,
@@ -152,12 +152,12 @@ i {
 }
 
 .nav-item,
-.pinkRight,
+.pink-right,
 .footer-items {
   margin: auto 0;
 }
 
-.bold_item,
+.bold-item,
 .btn,
 .btn-learn,
 .lm {
@@ -180,8 +180,8 @@ i {
 }
 
 .btn,
-.pink_wrapper,
-.purple_wrapper {
+.pink-wrapper,
+.purple-wrapper {
   border-radius: 50px;
 }
 
@@ -197,17 +197,17 @@ header {
   display: flex;
 }
 
-.rightSide {
+.right-side {
   position: relative;
 }
 
-.rightSide,
+.right-side,
 .bg-box,
 .bg-right {
   width: 50%;
 }
 
-.rightSide1 {
+.right-side1 {
   left: -220px;
   top: 140px;
 }
@@ -220,61 +220,61 @@ header {
   top: 30px;
 }
 
-.h1,
-.h2,
+h1,
+h2,
 .h3-features {
   font-weight: 600;
 }
 
-.h1,
-.h2,
-.h5,
-.h6,
-.h5,
-.h6,
+h1,
+h2,
+h5,
+h6,
+h5,
+h6,
 .h7,
 .h8,
 .lm {
   font-family: "Lato";
 }
 
-.h1 {
+h1 {
   font-size: 80px;
   line-height: 88px;
   margin-bottom: 70px;
   z-index: 2;
 }
 
-.h2 {
+h2 {
   font-size: 40px;
   line-height: 52px;
 }
 
-.h2white {
+.h-white {
   color: #ffffff;
   margin-bottom: 88px;
   position: absolute;
 }
 
-.h3 {
+h3 {
   font-size: 24px;
   line-height: 32px;
   z-index: 3;
 }
 
-.h4 {
+h4 {
   width: 65%;
   line-height: 29px;
   color: #4b5d68;
   z-index: 3;
 }
 
-.h4full {
+.h4-full {
   width: 80%;
   margin: 20px 0;
 }
 
-.h4features {
+.h4-features {
   width: 55%;
 }
 
@@ -282,13 +282,13 @@ header {
   width: 100%;
 }
 
-.h5 {
+h5 {
   font-size: 20px;
   font-weight: 900;
   margin: 0 0 10px 20px;
 }
 
-.h6 {
+h6 {
   font-weight: 600;
   line-height: 25px;
   letter-spacing: 0.01em;
@@ -318,7 +318,7 @@ header {
   background-color: #9c69e2;
 }
 
-.pink_wrapper,
+.pink-wrapper,
 header,
 .bottom-elements,
 .windows,
@@ -326,8 +326,8 @@ header,
 .window2,
 .dots,
 .vectors,
-.contact_head,
-.head_right,
+.contact-head,
+.head-right,
 .data-container,
 .brand-box,
 .icons,
@@ -336,13 +336,13 @@ header,
   flex-direction: row;
 }
 
-.pink_wrapper {
+.pink-wrapper {
   width: 1117px;
   height: 560px;
   background-color: rgba(240, 99, 184, 0.15);
 }
 
-.pinkLeft {
+.pink-left {
   display: flex;
   margin: auto;
 }
@@ -352,7 +352,7 @@ header,
   height: 300px;
 }
 
-.pinkRight {
+.pink-right {
   padding-right: 90px;
 }
 
@@ -360,7 +360,7 @@ header,
   margin: 100px 0;
 }
 
-.headings_center {
+.headings-center {
   margin: 100px auto;
   text-align: center;
 }
@@ -380,7 +380,7 @@ header,
 
 .bg-box-container,
 .bg-box,
-.h2,
+h2,
 .description,
 .brand-box {
   margin-bottom: 50px;
@@ -428,7 +428,7 @@ header,
   margin-bottom: 150px;
 }
 
-.purple_wrapper {
+.purple-wrapper {
   width: 1118px;
   height: 709px;
   padding: 111px 0 128px 60px;
@@ -540,7 +540,7 @@ header,
 }
 
 .dots-vectors,
-.contact_head,
+.contact-head,
 .data-container,
 .footer-items {
   justify-content: space-between;
@@ -569,11 +569,11 @@ header,
   opacity: 0.2;
 }
 
-.contact_head {
+.contact-head {
   margin-bottom: 130px;
 }
 
-.head_right {
+.head-right {
   padding-bottom: 60px;
 }
 
@@ -609,7 +609,7 @@ header,
   padding-right: 130px;
 }
 
-.data_p {
+.data-p {
   margin-bottom: 65px;
 }
 
