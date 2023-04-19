@@ -6,62 +6,38 @@ body {
 
 .main-container {
   width: 80%;
+  margin: 0 auto;
 }
-
-.main-container,
-.left-side,
-.pink-right,
-.bg-right,
-.headings-center,
-.purple-wrapper,
-.right,
-.address,
-.about-items,
-.help-items,
-.social-media {
+.align-column {
   display: flex;
   flex-direction: column;
 }
 
-.main-container,
 .pink-wrapper,
 .purple-wrapper {
   margin: 0 auto;
 }
 
-.main-container,
-.right-side,
-.left-side,
-.right,
-.left,
-.bg-box-container {
+.fit-height {
   height: fit-content;
 }
+
 .navbar {
+  width: 100%;
   background-color: transparent;
   margin-top: 65px;
   left: 0;
 }
 
-.navbar,
-.headings-center,
-.testimonials,
-.description2::before,
-.strap,
-.wide {
+.width-100 {
   width: 100%;
 }
 
-.navbar,
-.nav-item,
-.btn,
-.headings-center,
-.bg-box,
-.dots-vectors,
-.dots,
-.vectors,
-.contact-head,
-.elipse {
+.description2::before {
+  width: 100%;
+}
+
+.centered-items {
   align-items: center;
 }
 
@@ -79,13 +55,7 @@ body {
   margin: auto 10px 0 0;
 }
 
-.circle,
-.circle1,
-.circle2,
-.circle3,
-.big-dot,
-.small-dot,
-.elipse {
+.circle-radius {
   border-radius: 50%;
 }
 
@@ -115,13 +85,7 @@ body {
   padding-right: 200px;
 }
 
-.navbar-nav,
-.nav-item,
-.btn,
-h4,
-h6,
-h7,
-.lm {
+.font-16 {
   font-size: 16px;
 }
 
@@ -136,18 +100,7 @@ h4,
   padding-right: 50px;
 }
 
-.nav-item,
-.rd,
-h1,
-h2,
-.h3-features,
-h5,
-h6,
-.h7,
-.h8,
-.lm,
-.name,
-i {
+.dark-blue {
   color: #212353;
 }
 
@@ -157,10 +110,7 @@ i {
   margin: auto 0;
 }
 
-.bold-item,
-.btn,
-.btn-learn,
-.lm {
+.font-800 {
   font-weight: 800;
 }
 
@@ -226,15 +176,7 @@ h2,
   font-weight: 600;
 }
 
-h1,
-h2,
-h5,
-h6,
-h5,
-h6,
-.h7,
-.h8,
-.lm {
+.font-Lato {
   font-family: "Lato";
 }
 
@@ -318,20 +260,7 @@ h6 {
   background-color: #9c69e2;
 }
 
-.pink-wrapper,
-header,
-.bottom-elements,
-.windows,
-.window1,
-.window2,
-.dots,
-.vectors,
-.contact-head,
-.head-right,
-.data-container,
-.brand-box,
-.icons,
-.footer-items {
+.flex-row {
   display: flex;
   flex-direction: row;
 }
@@ -378,11 +307,7 @@ header,
   background-size: contain;
 }
 
-.bg-box-container,
-.bg-box,
-h2,
-.description,
-.brand-box {
+.margin-bottom-50 {
   margin-bottom: 50px;
 }
 
@@ -539,10 +464,7 @@ h2,
   margin: 528px 0;
 }
 
-.dots-vectors,
-.contact-head,
-.data-container,
-.footer-items {
+.space-btwn {
   justify-content: space-between;
 }
 
@@ -589,10 +511,7 @@ h2,
   margin-bottom: 100px;
 }
 
-.address,
-.about-items,
-.help-items,
-.social-media {
+.width-quarter {
   width: 25%;
 }
 
