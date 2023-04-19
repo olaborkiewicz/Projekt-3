@@ -314,20 +314,20 @@ h6 {
 }
 
 .bg-box:nth-child(1) {
-  background-image: url(bg1.png);
+  background-image: url(./assets/backgrounds/bg1.png);
 }
 
 .bg-box:nth-child(2) {
   height: 368px;
-  background-image: url(bg2.png);
+  background-image: url(./assets/backgrounds/bg2.png);
 }
 
 .bg-box:nth-child(3) {
-  background-image: url(bg3.png);
+  background-image: url(./assets/backgrounds/bg3.png);
 }
 
 .bg-box:nth-child(4) {
-  background-image: url(bg4.png);
+  background-image: url(./assets/backgrounds/bg4.png);
 }
 
 .bg-left {
@@ -376,7 +376,7 @@ h6 {
   width: 90px;
   height: 90px;
   margin: 60px 40px 180px 70px;
-  background-image: url(man.jpg);
+  background-image: url(./assets/obrazy/man.jpg);
   background-size: contain;
 }
 
@@ -430,7 +430,7 @@ h6 {
   width: 90px;
   height: 90px;
   margin: 60px 30px 180px 30px;
-  background-image: url(woman.jpg);
+  background-image: url(./assets/obrazy/woman.jpg);
   background-size: cover;
 }
 
@@ -451,7 +451,7 @@ h6 {
   width: 90px;
   height: 90px;
   margin: 60px 30px 180px 30px;
-  background-image: url(man2.jpg);
+  background-image: url(./assets/obrazy/man2.jpg);
   background-size: cover;
 }
 
