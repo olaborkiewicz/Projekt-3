@@ -72,9 +72,7 @@ body {
   margin-top: auto;
 }
 
-.rectangle,
-.pink,
-.big-dot {
+.pink {
   background-color: #f063b8;
 }
 
@@ -122,10 +120,7 @@ h4,
   box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
 }
 
-.btn,
-.window1,
-.window2,
-.small-dot {
+.white-background {
   background-color: #fff;
 }
 
@@ -257,7 +252,14 @@ h6 {
   color: #ffffff;
   font-size: 18px;
   box-shadow: none;
+}
+
+.violet {
   background-color: #9c69e2;
+}
+
+.vector-margin {
+  margin-right: 15px;
 }
 
 .flex-row {
@@ -499,8 +501,9 @@ h6 {
   padding-bottom: 60px;
 }
 
-.pink {
+.pink-btn {
   margin: 0 30px 0 0;
+  background-color: #f063b8;
 }
 
 .btn-span {
